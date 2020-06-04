@@ -3,11 +3,15 @@ A python project that helps you optimize your power consumption based on statist
 
 Developed by: Sajal Suhane
 
-The model works on ARIMA forecasting (AutoRegression Integrated Moving Average).
+The model in householdPower.py works on ARIMA forecasting (AutoRegression Integrated Moving Average).
 
-Clone or Download the project and run it on IDLE with some pre requisites which are as follows:
+The model in householdPower_Naive.py works on Naive forecasting strategies.
+
+Clone, Download or fork the project and run it on IDLE with some pre requisites which are as follows:
 
 numpy
+sklearn
+matplotlib
 pandas
 statsmodels.graphics.tsaplots
 
@@ -24,6 +28,4 @@ Sub_metering_2
 Sub_metering_3
 
 
-
-
-Thanks! Hope you enjoy the project! :)
+Thanks. Hope you enjoy the project! :)
